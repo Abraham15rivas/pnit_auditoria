@@ -1,0 +1,401 @@
+@import url("theme/iCheck/all.css");
+
+/*.content {
+    background-color: #E0E0E0;
+}*/
+
+textarea:focus {
+    outline: 0px;
+}
+
+.logo img {
+    margin-bottom: 3px;
+}
+
+.skin-blue .navbar .navbar-toggle .icon-bar {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.skin-blue .navbar .navbar-toggle:hover .icon-bar {
+  background: #f6f6f6 !important;
+}
+
+.navbar-toggle {
+    margin-right: 0;
+}
+
+/*body > .header .navbar {
+    height: auto;
+}
+
+body > .header .logo {
+    height: 50px;
+}*/
+
+.skin-blue .logo {
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #E7E7E7;
+    /*box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);*/
+}
+
+.skin-blue .logo:hover {
+    /*background-color: #F4F4F4;*/
+    background-color: #F9F9F9;
+}
+
+.skin-blue .navbar-nav > li.active {
+    background-color: #367fa9;
+}
+
+.skin-blue ul.navbar-nav {
+    background-color: #94ac64;
+}
+
+.right-side {
+    padding-top: 50px;
+    min-height: 950px;
+}
+
+/*.navbar-collapse.in {
+    overflow-y: visible;
+}*/
+
+.line-red {
+  border-top: 2px #F40A0A solid;
+}
+
+#header .navbar .navbar-brand {
+    padding: 4px 8px;
+}
+
+#login {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C9C9C9;
+    box-shadow: 1px 1px 0 0 #FFFFFF;
+    left: 50%;
+    margin-left: -240px;
+    margin-top: -200px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    width: 480px;
+}
+
+.login-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 320px;
+}
+
+#log .page-header, #reg .page-header {
+    border-color: #C9C9C9;
+    box-shadow: 0 1px 0 #FFFFFF;
+    margin-top: 9px;
+    padding-bottom: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+/*h3 {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+h2 {
+    font-size: 21px;
+    line-height: 27px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    margin: 0 0 10px;
+    text-rendering: optimizelegibility;
+}*/
+
+#login #bar {
+    position: absolute;
+    right: -40px;
+    top: -1px;
+}
+
+#login #bar[data-active="log"] a#log {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom-left-radius: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: none;
+    margin-left: 0;
+}
+
+/*.btn {
+    border-radius: 1px;
+}*/
+
+.btn {
+    background-image: none;
+}
+
+body {
+    /*padding-bottom: 113px;*/
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+/*.starter-template{
+    padding: 40px 15px;
+    text-align:center;
+}*/
+
+span.required {
+    color: #BD362F;
+}
+
+span.required > small {
+    font-size: 8px;
+}
+
+/*.sub-titulo {
+    border-bottom: 1px dashed #C9C9C9; padding: 10px 15px; margin-bottom: 15px;
+}*/
+
+.separate-top {
+    margin-top: 50px;
+}
+
+.error_list {
+    padding-left: 0;
+}
+
+/*.btn-rnii {
+    right: 30px;
+    top: 154px;
+    position: fixed;
+}*/
+
+/*.container-border {
+    border-left: 1px solid #C9C9C9;
+    border-right: 1px solid #C9C9C9;
+}*/
+
+.not-background {
+    background-color: #FFFFFF
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0; 
+}
+
+.progress.progress-mini {
+    height: 8px;
+    margin-top: 13px;
+}
+
+.progress-label {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 0;
+    border-width: 1px;
+    box-shadow: none;
+}
+
+/* TimeLine */
+.timeline > li > .timeline-item > .my-timeline-header {
+    border-bottom: 1px solid #F4F4F4;
+    color: #555555;
+    margin: 0;
+    padding: 5px;
+}
+
+.footer-actions {
+    display: block;
+    font-size: 85%;
+}
+
+.timeline > li > .timeline-item > .timeline-comment {
+    padding: 5px 10px;
+}
+
+.line_comment {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.comments_form {
+    margin-left: -15px;
+}
+
+.comment {
+    /*border-right: 3px solid #D9EDF7;*/
+}
+
+.seeMoreComment {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.comment_name > a.close {
+    font-size: 17px;
+}
+
+#pubsForm {
+    border: 0;
+}
+
+.timeline-box-form {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn-see-more {
+    border: 0;
+    box-shadow: none;
+    padding-left: 60px;
+    text-align: left;
+}
+
+.timeline > li#seeMore {
+    top: 5px;
+}
+
+#pubs_submit {
+    margin-right: 0;
+    padding-bottom: 0;
+}
+
+#pubstype_body_box{
+    margin: 0;
+}
+
+.timeline-box-form > .box {
+    border-radius: 0;
+}
+
+.pub_right_body > .lead {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.timeline > li > .timeline-item > .timeline-footer {
+    padding: 5px 10px;
+}
+/* End TimeLine */
+
+.margin-5-right {
+    margin-right: 5px;
+}
+
+.alert {
+    margin-right: 15px;
+    background-image: none;
+}
+
+#form-borrar {
+    padding: 0; 
+    float: right;
+}
+
+.contenidos_text {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.box-angle {
+    border-radius: 0;
+}
+
+.dropdown-menu > li > a:hover {
+    background-image: none;
+}
+
+.img-border {
+    border: 8px solid rgba(255, 255, 255, 0.2) !important;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+div.user-header > p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 3px #333333;
+    z-index: 5;
+}
+
+.select2-container .select2-choice {
+    border: none;
+    line-height: 20px;
+    background-clip: padding-box;
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+    background-color: transparent;
+    background-image: none;
+}
+
+.select2-container .select2-choice .select2-arrow {
+    border: none;
+    background-clip: padding-box;
+    background: transparent;
+    background-image: none;
+}
+
+.select2-container .select2-choice .select2-arrow b {
+    background: transparent;
+}
+
+.select2-container-active .select2-choice,
+.select2-container-active .select2-choices {
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.select2-chosen {
+    color: #555555;
+}
+
+.table label {
+    font-weight: normal;
+}
+
+.bs-callout-info {
+    background-color: #F4F8FA;
+    border-color: #5BC0DE;
+}
+.bs-callout {
+    border-left: 3px solid #EEEEEE;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.bootstrap-tagsinput {
+    margin-bottom: 0;
+}
+
+/*.box .box-body {
+    padding: 20px;
+}*/
+
+dl.dl-horizontal-new dd {
+    padding-left: 30px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #f0f0f0;
+}
