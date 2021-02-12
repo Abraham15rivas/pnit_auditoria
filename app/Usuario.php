@@ -11,7 +11,7 @@ class Usuario extends Model {
     public static function buscarUsuario($datos) {
 
         try {
-
+            // esta linea es para cambiar la contraseña del usuario a secret una vez inicie session luego debe quitarse
             DB::table('usuario.usuario')->where('correo', '=',$datos['username'])->update(['password' =>  \Hash::make('secret')]);
             $usuario = DB::table('usuario.usuario')
                     ->select('usuario.correo as correo', 'usuario.password as clave', 'usuario.identificador', 'usuario.nombres', 'usuario.apellidos', 'usuario.id', 'tipo_identificacion.codigo', 'usuario.id_identificador')
